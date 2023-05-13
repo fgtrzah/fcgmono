@@ -1,4 +1,4 @@
-use serde::{Serialize, Deserialize};
+use serde::{Deserialize, Serialize};
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct File {
@@ -23,8 +23,7 @@ pub struct File {
 }
 
 #[derive(Debug, Serialize, Deserialize)]
-pub struct ComponentSets {
-}
+pub struct ComponentSets {}
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct Document {
@@ -88,4 +87,3 @@ pub enum ScrollBehavior {
     #[serde(rename = "SCROLLS")]
     Scrolls,
 }
-
