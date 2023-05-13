@@ -1,3 +1,3 @@
 #### figmacodegen
 
-Initial scaffold of figma platform api codegen
+monorepo/scaffold of Figma codegen cli tool
