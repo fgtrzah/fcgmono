@@ -61,7 +61,7 @@ pub struct BackgroundColor {
     pub(crate) r: Option<f64>,
     pub(crate) g: Option<f64>,
     pub(crate) b: Option<f64>,
-    pub(crate) a: Option<i64>,
+    pub(crate) a: Option<f64>,
 }
 
 #[derive(Debug, Serialize, Deserialize)]

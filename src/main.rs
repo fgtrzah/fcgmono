@@ -42,7 +42,7 @@ async fn main() -> Result<(), reqwest::Error> {
 
     let model = inspect_file_struct(text_body);
 
-    println!("{:?}", model.styles);
+    print!("{:?}", model);
     
     Ok(())
 }
